@@ -45,6 +45,6 @@ fn HomePage(cx: Scope) -> impl IntoView {
 
     view! { cx,
         <h1>"Welcome to Leptos!"</h1>
-        <button on:click=on_click>"Click Me: " {count}</button>
+        <button class="btn" on:click=on_click>"Click Me: " {count}</button>
     }
 }
